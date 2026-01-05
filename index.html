@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Birthday Setup</title>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+    
+    body {
+      background: #f9f1f1;
+      font-family: 'Protest+Revolution&display', sans-serif;
+      font-size: 20px;
+      color: #003569;
+
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    label {
+      margin-top: 1rem;
+      border-radius: 8px;
+      border-width: 2px;
+
+    }
+
+    button {
+      margin-top: 1.5rem;
+      padding: 0.5rem 1.2rem;
+      font-family: 'Protest+Revolution&display', sans-serif;
+      cursor: pointer;
+      border-radius: 8px;
+      border-width: 3px;
+      color:#f9f1f1 ;
+      box-shadow: 2px 2px darkblue;
+      background-color: #003569;
+      
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Fill this out pretty please 🎂</h1>
+
+  <label>
+    Your Name:
+    <input type="text" id="nameInput" placeholder="Enter your name">
+  </label>
+
+  <br>
+
+  <label>
+    Favourite Colour:
+    <input type="color" id="colorInput" value="#f9f1f1">
+  </label>
+
+  <button id="startBtn">Next</button>
+
+  <script src="setup.js"></script>
+</body>
+</html>
+
